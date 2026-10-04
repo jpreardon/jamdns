@@ -1,0 +1,11 @@
+vultr:
+  api_key: "your-vultr-api-key"
+
+porkbun:
+  api_key: "your-porkbun-api-key"
+  secret_api_key: "your-porkbun-secret-api-key"
+
+dns:
+  domain: "example.com"
+  host: "jam"
+  ttl: 600

@@ -1,0 +1,10 @@
+[project]
+name = "jamdns"
+version = "0.1.0"
+description = "Point a Porkbun DNS A record at a Vultr VPS"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pyyaml>=6.0",
+    "requests>=2.31",
+]
