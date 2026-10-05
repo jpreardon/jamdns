@@ -1,5 +1,15 @@
 vultr:
   api_key: "your-vultr-api-key"
+  instance:
+    region: ewr
+    plan: voc-c-4c-8gb-75s
+    image: Docker
+    startup_script: jam server boot
+    label: jamulus
+    tag: jamdns
+    backups: false
+    ddos_protection: false
+    enable_ipv6: false
 
 porkbun:
   api_key: "your-porkbun-api-key"
